@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head-main-container{
+    background-image: url('/back-ground-img.webp');
+    z-index: -1;
+    height: 600px;
+    background-size: cover;
+}
+
+.half-circle{
+    background-color: white;
+    height: 100px;
+    width: 225px;
+    border-radius:  0 0 125px 125px;
+    /* border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+    background-color: blue;    */
+} 
+
+@layer base {
+    @font-face {
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(/fonts/Roboto.woff2) format('woff2');
+    }
+  }
+
+  .Hiring{
+    background-image: url('/hero-s-1.png');
+    width: 520px;
+    height: 534px;
+    background-size: cover;
+  }
+
+  @media only screen and (max-width: 1490px) {
+/*   
+    .logo{
+      margin-left: 2rem;
+    }
+    .NavBar{
+      margin-right: 5rem;
+    } */
+  }
+
+  .mystyle{
+    position: fixed;
+    top: 1rem;
+  }
+
+  .AboutCompany{
+    background-image: url('/about-img.webp');
+  }
+
+  .WhyChoose{
+    background-image: url('/why-choose.webp');
+  }
+
+  .HomeExperience{
+    background-image: url('/home-experience-1.webp');
+  }
