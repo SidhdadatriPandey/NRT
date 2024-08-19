@@ -15,7 +15,7 @@ const Brands = () => {
             <h2 className='text-[44px] font-medium'>Brands</h2>
             <h3 className='font-medium text-xl'>That Rely on Our Expertise </h3>
             <div className='h-1 w-32 bg-orange-500 my-7'></div>
-            <div className='mx-32 my-4 flex flex-wrap gap-x-8 gap-y-8 justify-start' >
+            <div className='mx-32 my-4 flex flex-wrap gap-x-5 gap-y-9 justify-center' >
                 {
                     data.map((brand, index) => {
                         return <div key={index} className='w-[285px] h-[85px] flex flex-col justify-center items-center'>

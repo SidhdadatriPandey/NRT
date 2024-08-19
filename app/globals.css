@@ -10,6 +10,13 @@
     background-size: cover;
 }
 
+
+@media only screen and (max-width: 768px) {
+  .head-main-container{
+    height: 550px;
+  }
+}
+
 .half-circle{
     background-color: white;
     height: 100px;
@@ -30,21 +37,21 @@
     }
   }
 
-  .Hiring{
+  /* .Hiring{
     background-image: url('/hero-s-1.png');
     width: 520px;
     height: 534px;
     background-size: cover;
-  }
+  } */
 
-  @media only screen and (max-width: 1490px) {
-/*   
-    .logo{
-      margin-left: 2rem;
+  @media only screen and (min-width: 768px) {
+    .Hiring{
+      background-image: url('/hero-s-1.png');
+      width: 520px;
+      height: 540px;
+      background-size: contain;
+      background-repeat: no-repeat;
     }
-    .NavBar{
-      margin-right: 5rem;
-    } */
   }
 
   .mystyle{
