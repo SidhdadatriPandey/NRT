@@ -7,20 +7,22 @@ import WhyChoose from '../Component/HomeComponents/WhyChoose'
 import HomeExperience from '../Component/HomeComponents/HomeExperience'
 import HomeProjects from '../Component/HomeComponents/HomeProjects'
 import HomeTechnologies from '../Component/HomeComponents/HomeTechnologies'
+import HomeBlogs from '../Component/HomeComponents/HomeBlogs'
 
 const Home = () => {
-  
+
   return (
     <div className=''>
-      <Hiring/>
-     <Brands/>
-     {/* <AboutCompany/>
-     <HomeServices/>
-     <Achievement/>
-     <WhyChoose/>
-     <HomeExperience/>
-     <HomeProjects/>
-     <HomeTechnologies/> */}
+      <Hiring />
+      <Brands />
+      <AboutCompany />
+      <HomeServices />
+      <Achievement />
+      <WhyChoose />
+      <HomeExperience />
+      <HomeProjects />
+      <HomeTechnologies />
+      <HomeBlogs />
     </div>
   )
 }

@@ -4,18 +4,18 @@ import { FaYoutube } from "react-icons/fa";
 
 const WhyChoose = () => {
     return (
-        <div className='mx-32 flex relative my-24 h-[800px]'>
-            <div className='WhyChoose w-[540px] h-[618px]  relative'>
-                <div className='flex justify-center items-center cursor-pointer w-24 p-1 h-24 text-4xl border-solid border-2 border-black-900 rounded-full text-red-700 bg-white hover:bg-black hover:text-white absolute top-[500px]'>
+        <div className='lg:mx-12 xl:mx-32 flex flex-col items-center lg:flex-row relative my-24 lg:h-[1000px]'>
+            <div className='WhyChoose w-[315px] h-[361px] sm:w-[540px] sm:h-[618px]  relative'>
+                <div className='flex justify-center items-center cursor-pointer w-24 p-1 h-24 text-4xl border-solid border-2 border-black-900 rounded-full text-red-700 bg-white top-64 hover:bg-black hover:text-white absolute sm:top-[500px]'>
                     <FaYoutube />
                 </div>
             </div>
             <div>
-                <div className='py-12 ml-8'>
-                    <h4>Why Choose Us</h4>
-                    <h3 className='text-[44px] w-[570px]'>WE EXECUTE YOUR IDEAS FROM START TO FINISH</h3>
+                <div className=' mx-6 lg:py-12 lg:ml-8 lg:absolute lg:top-28 lg:left-[530px] my-9'>
+                    <h4 className='font-semibold'>Why Choose Us</h4>
+                    <h3 className='text-4xl xl:text-[44px]  xl:w-[570px] mt-4'>WE EXECUTE YOUR IDEAS FROM START TO FINISH</h3>
                 </div>
-                <div className='bg-[#040021] flex flex-col gap-y-8 w-[685px] rounded-lg absolute top-60 left-[480px]'>
+                <div className='bg-[#040021] flex flex-col gap-y-8 lg:w-[500px] xl:w-[685px] rounded-lg mx-6 lg:absolute lg:top-96 lg:left-[460px]'>
                     <div className='p-7 flex gap-x-5'>
                         <div className='flex justify-center items-center cursor-pointer w-20 p-1 h-20 text-xl border-solid border-2 border-white rounded-full text-white bg-black'>
                             <div className='flex justify-center items-center cursor-pointer w-16 p-1 h-16 text-xl border-solid border-2 border-white rounded-full text-white bg-black'>

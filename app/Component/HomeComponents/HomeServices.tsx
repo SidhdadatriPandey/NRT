@@ -9,13 +9,13 @@ import { HomeServicesData, Service } from './HomeServicesData';
 
 const HomeServices = () => {
     return (
-        <div className='flex px-32 flex-col  py-[125px] justify-center items-center bg-[#F6F5FA]'>
+        <div className='flex px-32 flex-col  py-[125px] justify-center items-center bg-[#F6F5FA] max-[670px]:px-7'>
             <h3 className='font-medium'>OUR SERVICES</h3>
-            <h2 className='text-[44px] font-medium'>OUR BEST SERVICES</h2>
+            <h2 className='text-[44px] font-medium max-[670px]:text-[30px]'>OUR BEST SERVICES</h2>
             <div className=' flex flex-wrap gap-8 rounded justify-center items-center mt-7'>
             {
              HomeServicesData.map((data:Service,index:number)=>{
-               return <div key={index} className='bg-white flex flex-col w-[370px] h-[440px] rounded justify-center items-center p-12'>
+               return <div key={index} className='bg-white flex flex-col w-[370px] h-[440px] rounded justify-center items-center p-12 max-[400px]:p-6 max-[400px]:w-[325px] max-[400px]:h-[440px]'>
                     <div className='bg-white flex flex-col gap-y-4 justify-center items-center'>
                         <div className='flex justify-center items-center cursor-pointer w-24 p-1 h-24 text-4xl border-solid border-2 border-black-900 rounded-full text-black hover:bg-black hover:text-white'>
                             <data.icon />

@@ -8,7 +8,7 @@ import { FaPlay } from "react-icons/fa";
 //     background-size: cover;
 const Hiring = () => {
     return (
-        <div className='head-main-container'>
+        <div className='head-main-container pt-28'>
             <div className='Hiring text-white p-8 md:w-6/12 md:mx-20 md:mb-8 md:pl-20 md:pt-32 w-full'>
                 <div className='xl:w-[825px] md:w-[600px] '>
                     <h3 className='font-bold'>IT SERVICE AGENCY</h3>

@@ -13,9 +13,9 @@ const ProjectMain: React.FC<Props> = ({ proj }) => {
     <div className='flex justify-center mt-7'>
       <div>
         {proj === "All" ? (
-          <div className='flex flex-wrap justify-start w-[1150px] m-auto'>
+          <div className='flex flex-wrap justify-center xl:w-[1150px] m-auto'>
             {HomeProjectData2.map((item: string, index: number) => (
-              <div key={index} className='flex flex-col h-[300px] w-[310px] my-7 mx-9'>
+              <div key={index} className='flex flex-col h-[300px] w-[310px] my-3 lg:my-7 mx-9'>
                 <Image
                   src={`/Home-project-${index}.jpg`}
                   height={233}

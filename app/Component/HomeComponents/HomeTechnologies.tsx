@@ -7,7 +7,7 @@ const HomeTechnologies = () => {
 
     return (
 
-        <div className='flex flex-col items-center justify-center p-24  mx-32 gap-y-3'>
+        <div className='flex flex-col items-center justify-center lg:p-24 mx-4 lg:mx-12 xl:mx-32 gap-y-3'>
             <h3 className='text-[36px] font-semibold'>Technologies</h3>
             <h5 className='text-[14px] text-center'>Our team of web & app developers, UI/UX designers, frontend and backend developers, digital marketing consultants, and strategists have years of experience in their respective fields. With their expertise and skills</h5>
             <div className='mt-12'>
